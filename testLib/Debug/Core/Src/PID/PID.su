@@ -1,0 +1,3 @@
+../Core/Src/PID/PID.c:3:6:set_PID_gain	24	static
+../Core/Src/PID/PID.c:11:6:reset_PID_gain	16	static
+../Core/Src/PID/PID.c:22:6:output_PID	24	static

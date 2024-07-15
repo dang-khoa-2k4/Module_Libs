@@ -1,0 +1,4 @@
+../Core/Src/PWM control/PWMcontrol.c:11:6:Motor_Init	7
+../Core/Src/PWM control/PWMcontrol.c:23:6:Servo_Init	4
+../Core/Src/PWM control/PWMcontrol.c:32:6:set_motor	21
+../Core/Src/PWM control/PWMcontrol.c:52:6:set_servo	6

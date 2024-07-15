@@ -1,0 +1,4 @@
+../Core/Src/UltraSonic/ultraSonic.c:3:6:ultraSonic_Init	24	static
+../Core/Src/UltraSonic/ultraSonic.c:17:6:updateDistance	24	static
+../Core/Src/UltraSonic/ultraSonic.c:78:6:activeTrigger	16	static
+../Core/Src/UltraSonic/ultraSonic.c:87:6:delay_us	16	static

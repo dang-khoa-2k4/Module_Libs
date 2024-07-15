@@ -1,0 +1,3 @@
+../Core/Src/AVERAGE FILTER/average_filter.c:3:6:reset_buffer	2
+../Core/Src/AVERAGE FILTER/average_filter.c:16:6:apply_filter	1
+../Core/Src/AVERAGE FILTER/average_filter.c:27:6:constrain	3

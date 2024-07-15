@@ -1,0 +1,4 @@
+../Core/Src/Encoder/Encoder.c:3:6:TimerInitENC	16	static
+../Core/Src/Encoder/Encoder.c:9:6:updateDiffPulse	24	static
+../Core/Src/Encoder/Encoder.c:43:6:updateEncoder	24	static
+../Core/Src/Encoder/Encoder.c:61:6:Encoder_Init	16	static
