@@ -67,10 +67,40 @@ typedef struct
 /* END MPU6050 typedefs and define */
 
 /* MPU6050 functions */
+/**
+  * @brief  Init mpu6050 for drone
+  * @param  mpu: pointer to MPU_6050 struct
+  * @retval 0 if success, 1 if failed
+*/
 uint8_t mpu6050_init(MPU_6050 * mpu);
+
+/**
+  * @brief  get reference point for mpu6050
+  * @param  mpu: pointer to MPU_6050 struct
+  * @retval None
+*/
 void get_ref_point(MPU_6050 * mpu);
+
+/**
+  * @brief  Concatenate two half data to full data
+  * @param  mpu: pointer to MPU_6050 struct
+  * @param  raw_data: array of 2 half data
+  * @retval None
+*/
 void concat_raw_data(MPU_6050 * mpu, uint8_t * raw_data);
-void mpu6050_update_all(MPU_6050 * mpu);
+
+/**
+  * @brief  Update all data of mpu6050 (gyro, accel, angle)
+  * @param  mpu: pointer to MPU_6050 struct
+  * @retval None
+  * 
+*/void mpu6050_update_all(MPU_6050 * mpu);
+/**
+  * @brief  Kalman filter for MPU6050
+  * @param  Kalman: pointer to Kalman struct
+  * @param  newAngle: new angle (calculate from accel) from MPU6050
+  * @param  newRate: new rate (calculate from gyro) from MPU6050
+*/
 double Kalman_getAngle(Kalman_t * Kalman, double newAngle, double newRate);
 /* END MPU6050 functions */
 
